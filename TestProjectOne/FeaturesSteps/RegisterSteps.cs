@@ -29,6 +29,5 @@ namespace TestProjectOne.FeaturesSteps
             wait.WaitToElement(driver, By.ClassName("page-heading"));
             Assert.AreEqual("AUTHENTICATION", driver.FindElement(By.ClassName("page-heading")).Text);
         }
-        //}
     }
 }
